@@ -5,134 +5,76 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'
-import cathleneBurrageImage from '@/images/avatars/cathlene-burrage.jpg'
-import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
-import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
-import erhartCockrinImage from '@/images/avatars/erhart-cockrin.jpg'
-import giordanoSagucioImage from '@/images/avatars/giordano-sagucio.jpg'
-import gordonSandersonImage from '@/images/avatars/gordon-sanderson.jpg'
-import heatherTerryImage from '@/images/avatars/heather-terry.jpg'
-import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
-import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
-import kimberlyParsonsImage from '@/images/avatars/kimberly-parsons.jpg'
-import parkerJohnsonImage from '@/images/avatars/parker-johnson.jpg'
-import piersWilkinsImage from '@/images/avatars/piers-wilkins.jpg'
-import richardAstley from '@/images/avatars/richard-astley.jpg'
-import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
-import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
-import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
-import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
+import jobDoneImage from '@/images/avatars/jobdone.png'
+import wathifalibyaImage from '@/images/avatars/wathifalibya.png'
+import photomathImage from '@/images/avatars/photomath.png'
+import blitzImage from '@/images/avatars/blitz.png'
+import landingpageImage from '@/images/avatars/landingpage.png'
+import pomodoroImage from '@/images/avatars/pomodoro.png'
+import oldPorfolioImage from '@/images/avatars/oldportfolio.png'
+
 
 const days = [
   {
-    name: 'Opening Day',
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    name: 'Web Applications',
+    // date: 'April 4',
+    // dateTime: '2022-04-04',
     speakers: [
       {
-        name: 'Steven McHail',
+        name: 'Final Year Project',
         role: 'Designer at Globex Corporation',
-        image: stevenMchailImage,
+        image: jobDoneImage,
+        url:'https://jobdone.live/',
       },
       {
-        name: 'Jaquelin Isch',
+        name: 'Wathifalibya',
         role: 'UX Design at InGen',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
-        image: dianneGuilianelliImage,
-      },
-      {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
-      },
-      {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
-      },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
+        image: wathifalibyaImage,
+        url:'https://wathifalibya.husnaindev.repl.co/',
+      }
     ],
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
-    dateTime: '2022-04-05',
+    name: 'ReactJs',
+    // date: 'April 5',
+    // dateTime: '2022-04-05',
     speakers: [
       {
-        name: 'Damaris Kimura',
+        name: 'Pomodoro productivity timer',
         role: 'Senior Engineer at OCP',
-        image: damarisKimuraImage,
-      },
-      {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
-        image: ibrahimFraschImage,
-      },
-      {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: cathleneBurrageImage,
-      },
-      {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
-        image: rinaldoBeynonImage,
-      },
-      {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
+        image: pomodoroImage,
+        url:'https://wonderful-lewin-6f2b5a.netlify.app/',
       },
     ],
   },
   {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
+    name: 'HTML, CSS & Javascript',
+    // date: 'April 6',
+    // dateTime: '2022-04-06',
     speakers: [
       {
-        name: 'Andrew Greene',
+        name: 'blitz',
         role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
+        image: blitzImage,
+        url:'https://devhusnain.github.io/Frontend/agency%20blitz/',
       },
       {
-        name: 'Heather Terry',
+        name: 'Landing Page',
         role: 'Backend Developer at Xanatos Enterprises',
-        image: heatherTerryImage,
+        image: landingpageImage,
+        url:'https://devhusnain.github.io/Frontend/LandingPage/',
       },
       {
-        name: 'Piers Wilkins',
+        name: 'PhotoMath',
         role: 'Full stack Developer at BiffCo',
-        image: piersWilkinsImage,
+        image: photomathImage,
+        url:'https://devhusnain.github.io/Frontend/photomath/',
       },
       {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Roll Out',
-        image: richardAstley,
+        name: 'Old Portfolio',
+        role: 'Full stack Developer at BiffCo',
+        image: oldPorfolioImage,
+        url:'https://devhusnain.github.io/Portfolio/',
       },
     ],
   },
@@ -177,9 +119,10 @@ export function Speakers() {
 
   return (
     <section
-      id="speakers"
+      id="projects"
       aria-labelledby="speakers-title"
       className="py-20 sm:py-32"
+      
     >
       <ImageClipPaths id={id} />
       <Container>
@@ -188,12 +131,12 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Speakers
+            Projects
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          {/* <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             Learn from the experts on the cutting-edge of deception at the most
             sinister companies.
-          </p>
+          </p> */}
         </div>
         <Tab.Group
           as="div"
@@ -205,7 +148,7 @@ export function Speakers() {
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
                 days.map((day, dayIndex) => (
-                  <div key={day.dateTime} className="relative lg:pl-8">
+                  <div key={dayIndex} className="relative lg:pl-8">
                     <DiamondIcon
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
@@ -228,12 +171,12 @@ export function Speakers() {
                           {day.name}
                         </Tab>
                       </div>
-                      <time
+                      {/* <time
                         dateTime={day.dateTime}
                         className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
                       >
                         {day.date}
-                      </time>
+                      </time> */}
                     </div>
                   </div>
                 ))
@@ -241,15 +184,17 @@ export function Speakers() {
             </Tab.List>
           </div>
           <Tab.Panels className="lg:col-span-3">
-            {days.map((day) => (
+            {days.map((day,index) => (
               <Tab.Panel
-                key={day.dateTime}
+                key={index}
                 className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 [&:not(:focus-visible)]:focus:outline-none"
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
+                    <a href={speaker.url} target="_blank" rel='noreferrer'>
                     <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
+                      
                       <div
                         className={clsx(
                           'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
@@ -279,6 +224,7 @@ export function Speakers() {
                     <p className="mt-1 text-base tracking-tight text-slate-500">
                       {speaker.role}
                     </p>
+                    </a>
                   </div>
                 ))}
               </Tab.Panel>
