@@ -22,13 +22,13 @@ const days = [
     speakers: [
       {
         name: 'Final Year Project',
-        role: 'Designer at Globex Corporation',
+        role: 'ReactJS, Django, Postgresql, Tailwindcss',
         image: jobDoneImage,
         url:'https://jobdone.live/',
       },
       {
         name: 'Wathifalibya',
-        role: 'UX Design at InGen',
+        role: 'ReactJS, Django, Postgresql, Tailwindcss',
         image: wathifalibyaImage,
         url:'https://wathifalibya.husnaindev.repl.co/',
       }
@@ -41,7 +41,7 @@ const days = [
     speakers: [
       {
         name: 'Pomodoro productivity timer',
-        role: 'Senior Engineer at OCP',
+        role: 'Reactjs, Redux, HTML5, CSS3',
         image: pomodoroImage,
         url:'https://wonderful-lewin-6f2b5a.netlify.app/',
       },
@@ -54,25 +54,25 @@ const days = [
     speakers: [
       {
         name: 'blitz',
-        role: 'Frontend Developer at Ultratech',
+        role: 'HTML5, CSS3, JavaScript',
         image: blitzImage,
         url:'https://devhusnain.github.io/Frontend/agency%20blitz/',
       },
       {
         name: 'Landing Page',
-        role: 'Backend Developer at Xanatos Enterprises',
+        role: 'HTML5, CSS3, JavaScript',
         image: landingpageImage,
         url:'https://devhusnain.github.io/Frontend/LandingPage/',
       },
       {
         name: 'PhotoMath',
-        role: 'Full stack Developer at BiffCo',
+        role: 'HTML5, CSS3, JavaScript',
         image: photomathImage,
         url:'https://devhusnain.github.io/Frontend/photomath/',
       },
       {
         name: 'Old Portfolio',
-        role: 'Full stack Developer at BiffCo',
+        role: 'HTML5, CSS3, JavaScript',
         image: oldPorfolioImage,
         url:'https://devhusnain.github.io/Portfolio/',
       },

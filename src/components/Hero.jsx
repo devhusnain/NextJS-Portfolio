@@ -28,7 +28,10 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-            My name is Husnain, and i am a Full Stack Developer with over 2 year of experience. We love to help my clients solve their problems, and We can go beyond building websites and help you identify how to solve your unique challenges.
+            I have the potential and energy to help an
+organization achieve its goals and to develop
+my skills. My hobbies are gaming and coding.
+I have more than 3 years of experience.
             </p>
 
           </div>

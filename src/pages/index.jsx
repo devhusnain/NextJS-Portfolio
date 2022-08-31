@@ -15,7 +15,10 @@ export default function Home() {
         <title>Husnaindev - Software engineer from Pakistan</title>
         <meta
           name="description"
-          content="My name is Husnain, and i am a Full Stack Developer with over 2 year of experience. We love to help my clients solve their problems, and We can go beyond building websites and help you identify how to solve your unique challenges,"
+          content="I have the potential and energy to help an
+          organization achieve its goals and to develop
+          my skills. My hobbies are gaming and coding.
+          I have more than 3 years of experience."
         />
       </Head>
       <Header />

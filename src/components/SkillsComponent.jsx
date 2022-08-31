@@ -139,7 +139,7 @@ function SkillsTabbed() {
         {({ selectedIndex }) =>
           SkillsData.map((day, dayIndex) => (
             <div
-              key={day.dayIndex}
+              key={dayIndex}
               className={clsx(
                 'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
@@ -161,12 +161,12 @@ function SkillsTabbed() {
         }
       </Tab.List>
       <Tab.Panels>
-        {SkillsData.map((day) => (
+        {SkillsData.map((day,index) => (
           <Tab.Panel
-            key={day.dayIndex}
+            key={index}
             className="[&:not(:focus-visible)]:focus:outline-none"
           >
-            <SkillSet day={day} />
+            <SkillSet skill={day.skills} />
           </Tab.Panel>
         ))}
       </Tab.Panels>
@@ -178,10 +178,10 @@ function SkillsSummary(props) {
   return (
     <>
       <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
-        {props.skill}
+        {props.day? props.day.skill: props.skill}
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-blue-900">
-        {props.summary}
+        {props.day? props.day.summary: props.summary}
       </p>
     </>
   )
